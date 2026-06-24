@@ -1,4 +1,20 @@
 # Exercício 1 – Parte 3 - HTML
 
 ## TAGS
-As tags utilizadas  têm funções específicas para organizar e estruturar a página web. A declaração <!DOCTYPE html> informa ao navegador que o documento está utilizando HTML5. A tag <head> contém informações sobre a página que não aparecem diretamente para o usuário, como o título da aba. Dentro dela, a tag <title> define o nome que será exibido na aba do navegador. A tag <body> contém todo o conteúdo visível da página. O elemento <h1> é utilizado para criar o título principal, geralmente o mais importante da página. Já a tag <h2> serve para criar subtítulos, ajudando a organizar o conteúdo em seções. A tag <br> cria uma quebra de linha, fazendo com que o conteúdo seguinte seja exibido na linha abaixo. A tag <p> é usada para criar parágrafos de texto, separando as informações de forma organizada. Para listas, existem duas opções utilizadas no seu código. A tag <ul> cria uma lista não ordenada, exibindo seus itens com marcadores (bolinhas). Dentro dela, a tag <li> representa cada item da lista. Já a tag <ol> cria uma lista ordenada, onde os itens aparecem numerados, e também utiliza a tag <li> para definir cada elemento da lista. Por fim, os comentários escritos entre <!-- e --> servem para adicionar observações no código. Eles ajudam a explicar partes do HTML para quem estiver lendo o arquivo, mas não aparecem na página quando ela é exibida no navegador.
+
+As tags utilizadas no código possuem funções específicas para organizar e estruturar uma página web.
+
+* `<!DOCTYPE html>`: informa ao navegador que o documento está utilizando HTML5.
+* `<head>`: contém informações da página que não aparecem diretamente para o usuário.
+* `<title>`: define o título exibido na aba do navegador.
+* `<body>`: contém todo o conteúdo visível da página.
+* `<h1>`: cria o título principal da página.
+* `<h2>`: cria subtítulos para organizar o conteúdo em seções.
+* `<br>`: insere uma quebra de linha.
+* `<p>`: cria parágrafos de texto.
+* `<ul>`: cria uma lista não ordenada (com marcadores).
+* `<ol>`: cria uma lista ordenada (numerada).
+* `<li>`: define um item dentro de uma lista.
+* `<!-- comentário -->`: adiciona comentários ao código que não são exibidos na página.
+
+Essas tags são fundamentais para a estruturação de páginas HTML, permitindo organizar textos, títulos, listas e demais elementos de forma clara e semântica.
