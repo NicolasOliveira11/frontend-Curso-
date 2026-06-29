@@ -6,6 +6,7 @@ A principal diferença é que a <div> é um elemento genérico, enquanto as tags
 
 ##
 
+```html
 <div>
     <div>
         <h1>Meu Site</h1>
@@ -19,19 +20,20 @@ A principal diferença é que a <div> é um elemento genérico, enquanto as tags
 
     <div>
         <h2>Bem-vindo!</h2>
-        <p>Este é o conteúdo principal.</p>
+        <p>Este é o conteúdo principal da página.</p>
     </div>
 
     <div>
-        <p>© 2026 Meu Site</p>
+        <p>&copy; 2026 Meu Site</p>
     </div>
 </div>
-
+```
 ## HTML semântico
 O HTML semântico utiliza tags que indicam a função do conteúdo, tornando o código mais organizado, acessível e fácil de entender.
 
 ##
 
+```html
 <header>
     <h1>Meu Site</h1>
 </header>
@@ -45,11 +47,11 @@ O HTML semântico utiliza tags que indicam a função do conteúdo, tornando o c
 <main>
     <section>
         <h2>Bem-vindo!</h2>
-        <p>Este é o conteúdo principal.</p>
+        <p>Este é o conteúdo principal da página.</p>
     </section>
 </main>
 
 <footer>
-    <p>© 2026 Meu Site</p>
+    <p>&copy; 2026 Meu Site</p>
 </footer>
-
+```
