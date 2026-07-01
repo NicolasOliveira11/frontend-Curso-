@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Sousou no Frieren</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            margin: 0;
+        }
+
+        table {
+            width: 900px;
+            margin: auto;
+            border-collapse: collapse;
+            background: #1e293b;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        .header {
+            background: #1e293b;
+            text-align: center;
+        }
+
+        .menu {
+            background: #111827;
+            text-align: center;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .conteudo {
+            background: #0f172a;
+        }
+
+        .footer {
+            text-align: center;
+            background: #1e293b;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+
+<table border="1">
+
+    <tr>
+        <td class="header">
+            <h1>Sousou no Frieren</h1>
+            <p>Um dos melhores animes de fantasia</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="menu">
+            <a href="#personagens">Personagens</a>
+            <a href="#historia">História</a>
+            <a href="#imagens">Imagens</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="conteudo">
+
+            <h2 id="personagens">Personagens</h2>
+
+            <p>Frieren, Fern e Stark são os principais personagens.</p>
+
+            <ul>
+                <li>Frieren</li>
+                <li>Fern</li>
+                <li>Stark</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="historia">História</h2>
+
+            <ol>
+                <li>Derrota do Rei Demônio</li>
+                <li>Separação do grupo</li>
+                <li>Nova jornada da Frieren</li>
+            </ol>
+
+            <hr>
+
+            <h2 id="imagens">Imagem do anime</h2>
+
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c2d1f48e-494e-4a1f-a4bf-ebd1f13b0c67/dgy4aa8-3bff5811-01eb-4e0b-8664-97e139833974.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MyZDFmNDhlLTQ5NGUtNGExZi1hNGJmLWViZDFmMTNiMGM2N1wvZGd5NGFhOC0zYmZmNTgxMS0wMWViLTRlMGItODY2NC05N2UxMzk4MzM5NzQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.q1SXg4KuTLHcCDngIhxiTE5Ri4j0NUQqbOoexbkYHnw"
+                alt="Sousou no Frieren">
+
+            <br><br>
+
+            <button onclick="curtirAnime()">
+                Curtir anime ❤️
+            </button>
+
+            <p id="mensagem"></p>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="footer">
+        Tomaaaaaaaaa
+        </td>
+    </tr>
+
+</table>
+
+<script>
+function curtirAnime(){
+    document.getElementById("mensagem").innerText =
+    "Você curtiu Sousou no Frieren! ✨";
+}
+</script>
+
+</body>
+</html>
